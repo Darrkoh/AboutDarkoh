@@ -1,0 +1,219 @@
+body {
+    background-image: url(76YS.gif); /*Background Image*/
+    
+}
+
+.webpageHeader {
+    font-size: 40px;
+    color: #edc202;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-top: 100px; /*So Text Will Be In a nice position*/
+    text-align: center; /* Centers Text */
+}
+
+.frameBar {
+    width: 1400px; /*How Wide the box is*/
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px; /*How High the box is*/
+    background-color: black;
+    margin: auto;
+}
+
+.boxWrapper {
+    height: 95vh;
+    width: 100%;
+    display: inline;
+    flex-direction: column;
+}
+
+.Frame {
+    width: 150px; /*How Wide the box is*/
+    border: 5px solid rgb(38, 0, 255);
+    border-radius: 5px; /*Curves Edges*/
+    padding: 200px; /*How High the box is*/
+    height: 70px;
+    background-color: rgb(248, 245, 224);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.frameTop {
+    position: absolute; /*So we can make sure the box's position isnt determined by the Frame class*/
+    border-bottom: 1px solid rgb(141, 141, 141); /*Border Line*/
+    border-radius: 5;
+    width: 385px;
+    padding: 15%; /*How High the box is*/
+    top: 0; /*To put box at top of other box*/
+    left: 0; /*So Box isn't in the center*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate; /*Text Colour Settings*/
+    stroke: black;
+}
+
+.Avatar {
+    position: absolute;
+    float: left; /*So it is on the left side of the box*/
+    left: 0;
+    top: 0;
+    height: 165px;
+    border-radius: 2px;
+}
+
+.Introduction {
+    position: absolute;
+    top: 0; /*Puts the text at top of box*/
+    right: 0; /*Puts Text on right side of box*/
+    width: 375px; /*So Text doesn't overlay Avatar*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.endingLine {
+    position: absolute;
+    bottom: 0; /*Puts the text at top of box*/
+    right: 20px; /*Puts Text on right side of box*/
+    width: 375px; /*So Text doesn't overlay Avatar*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutMeHeader {
+    position: absolute; /*Text doesn't affect box and vice-versa*/
+    top: 155px;
+    text-align: center; /*Text is in center*/
+
+    text-decoration: underline;
+    font-size: xx-large;
+    color: rgb(9, 18, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descriptionLine {
+    position: absolute;
+    top: 220px; /*Puts the text at top of the section*/
+    Left: 2px; /*Puts Text on left side of box, however it's not touching the border*/
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #000000;
+}
+
+.Gif {
+    position: absolute;
+    float: left; /*So it is on the left side of the box*/
+    right: 2px; /*So the borders aren't touching*/
+    bottom: 2px; /*So the borders aren't touching*/
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+
+.frameLeft {
+    width: 190px; /*How Wide the box is*/
+    border: 5px solid rgb(255, 136, 0);
+    border-radius: 10px;
+    padding: 10px; /*How High the box is*/
+    height: 450px;
+    background-color: rgb(248, 245, 224);
+    left: 440px;
+    float: left;
+    position: relative;
+}
+
+.leftFrameHeader {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bea016;
+    font-weight: bold; 
+    top: 10px;
+    position: relative;
+}
+
+.leftFrameText {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold; /*So Text Looks Nicer*/
+    width: 200px;
+    top: 10px;
+}
+
+.songImage {
+    border-radius: 10px;
+    right: 280px;
+    bottom: 480px;
+    float: right;
+    position: relative;
+}
+
+.youtubeVideo {
+    border-radius: 10px;
+    right: 285px;
+    bottom: 230px;
+    float: right;
+    position: absolute;
+}
+
+.navBar {
+    top: 20px;
+    width: 1400px; /*How Wide the box is*/
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    background-color: black;
+    text-align: center; /* Centers Text */
+    margin-left: 250px;
+    position: relative;
+    color: white;
+}
+
+
+.Options {
+    display: inline-flex; /* Displays Boxes on one Line. Also Prevents boxes from wrapping over each other if user were to make their window smaller. Taken From https://www.w3schools.com/cssref/pr_class_display.php*/
+    list-style-type: none; /*Removes Bullet Points, Taken From https://www.w3schools.com/css/css_navbar_horizontal.asp */
+    padding: 5px; /* Determines Box Size */
+    background-color: #000000; /* Gives Button Grey Background */
+    margin-right: 15px; /* Spaces Buttons out slightly */
+    
+
+    border: solid 2px #333; /* Customises Borders */
+    border-radius: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: sans-serif; /* Determines Font */
+}
+
+.removeUnderline{
+    text-decoration: none; /* Removes Underline */
+    color: blanchedalmond; 
+}
+
+.Options:hover{
+    background-color: #919492; /*Background will get darker when cursor hovers over button */
+}
+
+.leftTopGif{
+    left: 230px;
+    position:absolute
+}
+
+.leftMidGif{
+    position: absolute;
+    margin-top: 120px;
+    left: 230px;
+}
+
+.leftBottomGif{
+    position: absolute;
+    margin-top: 335px;
+    left: 265px;
+}
+
