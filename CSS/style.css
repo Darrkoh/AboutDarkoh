@@ -205,6 +205,7 @@
 
 .Options:hover{
     background-color: #919492; /*Background will get darker when cursor hovers over button */
+    cursor: pointer; /*Will show when a button is clickable*/
 }
 
 /*All of these gif classes are the same. These settings determine their position*/
